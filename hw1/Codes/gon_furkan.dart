@@ -75,7 +75,7 @@ void main() {
   
   print (mesneviiNuriye);
   // Existence of a key
-  print("Conatins Key----------------");
+  print("Contains Key----------------");
   
   print(mesneviiNuriye.containsKey("Habbe"));
   print(mesneviiNuriye.containsKey("Sabah"));
@@ -96,31 +96,3 @@ void main() {
 void foo(var key, var value){
   print("mesneviiNuriye[$key] = $value");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
