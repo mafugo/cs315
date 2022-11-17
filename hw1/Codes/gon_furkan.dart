@@ -1,10 +1,3 @@
-void foo(var map){
-  for(var kv in map.entries){
-    var mapKey = kv.key;
-    var mapValue = kv.value;
-    print("Key: $mapKey, Value: $mapValue");
-  }
-}
 void main() {
   /*var nobleGases = {
   2: 'helium',
@@ -102,7 +95,12 @@ void main() {
   
   // Function foo()--------------
   print("Function foo----------------");
-  foo(mesneviiNuriye);
+  
+  mesneviiNuriye.forEach(foo);
+}
+
+void foo(var key, var value){
+  print("mesneviiNuriye[$key] = $value");
 }
 
 
