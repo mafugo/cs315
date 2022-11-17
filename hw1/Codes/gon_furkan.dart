@@ -1,11 +1,5 @@
 void main() {
-  /*var nobleGases = {
-  2: 'helium',
-  10: 'neon',
-  18: 'argon',
-};*/
-  
-  // Inıtialization
+  // Initialization
   /*
   var mesneviiNuriye = Map<String, int>();
   mesneviiNuriye["Mukaddime"] = 3;
