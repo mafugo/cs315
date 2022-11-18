@@ -1,5 +1,5 @@
 <?php
-
+  // PHP
   // Inıtialization
   
   echo "Initialization--------------\n";

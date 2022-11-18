@@ -1,3 +1,4 @@
+// RUST
 fn main() {
       use std::collections::HashMap;
       use std::collections::BTreeMap;
