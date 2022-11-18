@@ -19,10 +19,9 @@ fn main() {
       mesnevii_nuriye.insert(String::from("14. Resha") , 6 );
       mesnevii_nuriye.insert(String::from("Sule"),  9 );
       mesnevii_nuriye.insert(String::from("Nokta"),  14 );
-        
-      for (key, value) in &mesnevii_nuriye {
-            println!("mesnevii_nuriye[{}] = {}", key, value);
-      }
+      
+      println! ("{:?}", &mesnevii_nuriye);  
+      
     
       // Get the value of a key
       println!("Get the value of a key--------------");
@@ -37,26 +36,21 @@ fn main() {
       mesnevii_nuriye.insert(String::from("Fihrist") , 10);
       mesnevii_nuriye.insert(String::from("Itizar") , 1);
       
-      for (key, value) in &mesnevii_nuriye {
-            println!("mesnevii_nuriye[{}] = {}", key, value);
-      }
+      println! ("{:?}", &mesnevii_nuriye);  
       
       // Remove an element
       println!("Remove an item--------------");
       
       mesnevii_nuriye.remove("Fihrist");
-      for (key, value) in &mesnevii_nuriye {
-            println!("mesnevii_nuriye[{}] = {}", key, value);
-      }
+     
+      println! ("{:?}", &mesnevii_nuriye);  
       
        // Modify an existing element
       println!("Modify an existing  item--------------");
       
       mesnevii_nuriye.insert(String::from("Itizar") , 3);
       
-      for (key, value) in &mesnevii_nuriye {
-            println!("mesnevii_nuriye[{}] = {}", key, value);
-      }
+      println! ("{:?}", &mesnevii_nuriye);  
       
       // Existence of a key
       println!("Contains Key----------------");
