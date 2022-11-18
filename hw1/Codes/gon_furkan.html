@@ -1,8 +1,8 @@
 <html>
     <header>Furkan Gon HW1</header>
     <script>
-        // Initialization
-        console.log('Initialization------------');
+       // Initialization
+       console.log('Initialization------------');
 
         const mesneviiNuriye = new Map();
         mesneviiNuriye.set('Mukaddime', 3);
@@ -19,55 +19,54 @@
         mesneviiNuriye.set('14. Resha', 6);
         mesneviiNuriye.set('Sule', 9);
         mesneviiNuriye.set('Nokta', 14);
-
+            
         console.log(mesneviiNuriye);
-
-        // Get the value for a given key
+            
         console.log('Get the value of a key--------------');
-        console.log(mesneviiNuriye.get('Onuncu Risale'));
-        console.log(mesneviiNuriye.get('Semme'));
         console.log(mesneviiNuriye.get('Mukaddime'));
+        console.log(mesneviiNuriye.get('Katre'));
+        console.log(mesneviiNuriye.get('Hubab'));
         console.log(mesneviiNuriye.get('Nokta'));
-
+            
         // Add a new item 
         console.log('Add a new item--------------');
-
+            
         mesneviiNuriye.set('Fihrist', 10);
         mesneviiNuriye.set('Itizar', 1);
-
+            
         console.log(mesneviiNuriye);
-
+            
         // Remove an element
         console.log('Remove an item--------------');
-
+            
         mesneviiNuriye.delete('Fihrist');
-
+            
         console.log(mesneviiNuriye);
-
+            
          // Modify an existing element
         console.log('Modify an existing  item--------------');
         mesneviiNuriye.set('Itizar', 3);
-
+            
         console.log(mesneviiNuriye);
-
-
+            
+            
          // Existence of a key
-         console.log('Conatins Key----------------');
-
+         console.log('Contains Key----------------');
+            
          console.log(mesneviiNuriye.has('Habbe'));
          console.log(mesneviiNuriye.has('Sabah'));
-
+            
          // Existence of a vaule
          console.log("Contains Value----------------");
-
+            
          const values = [...mesneviiNuriye.values()];
          console.log(values.includes(12));
          console.log(values.includes(33));
          console.log(values.includes(38));
-
+            
         // Function foo()--------------
         console.log('Function foo----------------');
-
+            
         function foo(value, key, map){
             console.log(`mesneviiNuriye[${key}] = ${value}`);
         }
