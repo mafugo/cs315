@@ -36,7 +36,7 @@ print("Add a new item--------------")
 mesneviiNuriye["Fihrist"] = 10
 mesneviiNuriye["Itizar"] = 1
 
-print (mesneviiNuriye);
+print (mesneviiNuriye)
 
 
 # Remove an element
