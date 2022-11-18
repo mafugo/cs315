@@ -85,6 +85,16 @@ fn main() {
           println!("{:?}", does_contain);
       }
       
-      
+       // Function foo()--------------
+      println!("Function foo----------------");
+    
+      fn foo(key: &String, value: &i32) {
+          println!("mesneviiNuriye[{}] =  {}", key, value);
+      }
+  
+      for (key, value) in &mesnevii_nuriye {
+           foo(key, value);
+      }
+    
      
   }
