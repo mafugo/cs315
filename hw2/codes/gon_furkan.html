@@ -1,0 +1,61 @@
+<html>
+    <header>Furkan Gon HW2</header>
+    <script>
+       outerLoop:// label
+   
+   for (var i = 0; i < 5; i++) { 
+     
+     console.log("-------------------------------");
+     
+     // shows unlabeled exit
+     // break statement exits only one loop
+     for (var j = 0; j < 5; j++){
+       if(j==1) break;
+       console.log("innerLoopBreakUnlabeled: ", j);
+     }// end of for
+     
+     console.log("-------------------------------");
+     
+     innerLoopBreakLabeled:// label
+     
+     // shows labeled exit
+     // break statement exits only one loop
+     for (var j = 0; j < 5; j++){
+       if(j==1) break innerLoopBreakLabeled;
+       console.log("innerLoopBreakLabeled: ", j);
+     }// end of for
+     
+     console.log("-------------------------------");
+     
+     // shows unlabeled continue 
+     // continue statement affects only one loop
+     for (var j = 0; j < 5; j++){
+       if(j==2) continue;
+       console.log("innerLoopContinueUnlabeled: ", j);
+     }// end of for
+     
+     console.log("-------------------------------");
+     
+     innerLoopContinueLabeled:// label
+     
+     // shows labeled continue
+     // continue statement affects only one loop
+     for (var j = 0; j < 5; j++){
+       if(j==2) continue innerLoopContinueLabeled;
+       console.log("innerLoopContinueLabeled: ", j);
+     }// end of for
+     
+     console.log("-------------------------------");
+     
+     // shows labeled exit for more than one loop
+     // break statement exits from outerLoop and ends the program
+     for (var j = 0; j < 5; j++){
+       if(j==3) break outerLoop;
+       console.log("outerLoopBreakLabeled: ", j);
+     }// end of for
+     
+   }// end of for
+
+
+    </script>
+</html>
